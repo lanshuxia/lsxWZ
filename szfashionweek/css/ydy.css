@@ -1,0 +1,53 @@
+body{
+    width:100%;
+    height:100%;
+    background:#040000;
+}
+.content{
+    width:100%;
+    height:230px;
+    position:fixed;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+}
+.con{
+    width:620px;
+    height:100%;
+    margin:0 auto;
+}
+.logo{
+    width:400px;
+    height:230px;
+    float: left;
+}
+.xian{
+    border-right:1px solid #ccc;
+    height:180px;
+    float: left;
+    margin-left:-10px;
+    margin-top:25px;
+}
+.wenzi{
+    width:150px;
+    height:100%;
+    float: right;
+}
+.zw{
+    width: 150px;
+    height: 33px;
+    margin-top: 75px;
+    background: url(../images/chinese.jpg) 0 0 no-repeat;
+}
+.zw:hover{
+    background: url(../images/chinese_l.jpg) 0 0 no-repeat;
+}
+.en{
+    width: 150px;
+    height: 33px;
+    margin-top: 36px;
+    background: url(../images/english.jpg) 0 0 no-repeat;
+}
+.en:hover{
+    background: url(../images/english_l.jpg) 0 0 no-repeat;
+}

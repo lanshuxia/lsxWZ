@@ -1,0 +1,258 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>打字游戏</title>
+	<script src="game.js"></script>
+	<script src="animate.js"></script>
+	<script>
+		window.onload=function(){
+			var startbox=document.getElementsByClassName('start')[0];
+			var start=document.getElementById('start');
+			var input=document.getElementsByTagName('input')[0];
+			var strats=document.getElementsByClassName('strats')[0];
+			//var input=document.getElementsByTagName('input')[0];
+			start.onclick=function(){
+				animate(startbox,{opacity:0},500,function(){
+					startbox.style.display="none";
+				});
+				var newstep=input.value;
+				var obj=new game();
+				obj.step=newstep;
+				var stepSpan=document.getElementById("stepbox");
+				stepSpan.innerHTML=newstep;
+				obj.stepNum=(newstep-1)*5+10;
+				obj.speed=(newstep-1)+5;
+				if(newstep>11){
+					newstep=11;
+				}
+				obj.letterLength=(newstep-1)+4;
+				//obj.step=1||input.value;
+				setTimeout(function(){
+					obj.play();
+				},2000)
+				strats.style.cssText="background:rgba(255,255,255,0)";
+			}
+
+		}
+	</script>
+	<style>
+		html,body{
+			width:100%;
+			height:100%;
+			overflow: hidden;
+			background:url(img/beijing4.png) no-repeat center;
+			background-size:cover;
+			padding: 0;margin: 0;
+		}
+		.strats{
+			width:552px;
+			height:320px;
+			background:rgba(255,255,255,0.5);
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto auto;
+		}
+		.start{
+			width: 532px;
+			height: 300px;
+			position: fixed;
+			left: 0;top: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto auto;
+			background: url(img/222.jpg) no-repeat 0 0;
+			background-size: 532px 300px;
+			z-index: 100;
+		}
+		.dzyx{
+			font-size:40px;
+			color:#fff;
+			padding-left:50px;
+			margin-top:20px;
+		}
+		.select{
+			width: 200px;
+			height: 150px;
+			position: absolute;
+			right: 160px;
+			top: 70px;
+		}
+		.select span{
+			display: block;
+			width:0px;
+			height: 30px;
+			margin: 0 auto;
+			text-align: center;
+			line-height: 30px;
+			font-size: 16px;
+			color: #fff;
+			overflow:hidden;
+		}
+		.select span:nth-of-type(1){
+			animation:donghua 2s linear forwards;
+		}
+		.select span:nth-of-type(2){
+			animation:donghua 2s linear 2s forwards;
+		}
+		@-webkit-keyframes donghua{
+			0%{
+				width:0;
+			}
+			100%{
+				width:100px;
+			}
+		}
+		.select input{
+			display: block;
+			width: 150px;
+			height: 20px;
+			margin: 10px auto;
+			text-align: center;
+			line-height: 20px;
+			font-size: 16px;
+			color: #666;
+		}
+		#start{
+			display: block;
+			width: 75px;
+			height: 25px;
+			text-decoration: none;
+			color:#ccc;
+			font-size:20px;
+			font-family: '楷体';
+			position: absolute;
+			bottom: 61px;
+			left:230px;
+		}
+		#start>img{
+			width:80px;
+			height:40px;
+			display:block;
+		}
+		.text{
+			position: fixed;left: 44%;top: 25%;
+		}
+		.message{
+			height: 80px;width: 100%;position: fixed;bottom: 10px;left: 0;z-index: 999;
+		}
+		.message div{
+			float: left;height: 80px;width: 33.3333%;text-align: center;line-height: 80px;
+		}
+		.message div img{
+			height: 80px;width: 80px;vertical-align: middle;
+		}
+		.message div span{
+			height: 80px;width: auto;margin-left: 10px;color: #333;font-size: 30px;vertical-align: bottom;
+		}
+		.message div .si{
+			width:0px;display:block;font-size:16px;text-align: center;margin-top:-30px;overflow: hidden;animation:dong linear infinite alternate;
+		}
+		@-webkit-keyframes dong{
+			0%{
+				width:0;
+			}
+			100%{
+				width:445px;
+			}
+		}
+		.next{
+			width: 532px;height: 300px;
+			position: fixed;left: 0;top: 0;right: 0;bottom: 0;margin: auto auto;
+			background: url(img/222.jpg) no-repeat 0 0;
+			background-size: 532px 300px;
+			display: none;opacity: 0;
+			z-index: 100;
+		}
+		.next img{
+			position: absolute;top: 100px;right: 130px;
+		}
+		.mes{
+			width: 150px;height: 100px;
+			position: absolute;top: 120px;left: 130px;
+			font-size: 20px;color: #381a07;font-family: "微软雅黑"
+		}
+		#go{
+			display: block;
+			width: 75px;height: 25px;text-decoration: none;color:#eee;
+			position: absolute;bottom: 51px;left: 218px;
+		}
+		.fail{
+			width: 532px;height: 300px;
+			position: fixed;left: 0;top: 0;right: 0;bottom: 0;margin: auto auto;
+			background: url(img/222.jpg) no-repeat 0 0;
+			background-size: 532px 300px;
+			display: none;opacity: 0;
+			z-index: 100;
+		}
+		.fail img{
+			position: absolute;top: 100px;right: 130px;
+		}
+		.score{
+			width: 200px;height: 100px;
+			position: absolute;top: 100px;left: 160px;
+			font-size: 18px;color: #381a07;font-weight: 500
+		}
+		#again{
+			display: block;
+			width: 75px;height: 25px;
+			position: absolute;bottom: 51px;left: 218px;
+		}
+		.back,.close{
+			display: block;
+			width: 20px;height: 20px;text-decoration:none;color:red;font-size:30px;font-family:'楷体';font-weight:500;
+			position: absolute;top: 11px;right: 40px;
+		}
+
+	</style>
+</head>
+<body>
+<div class="strats">
+	<div class="start">
+		<div class="dzyx">打字游戏</div>
+		<div class="select">
+			<span>请选择关卡: </span><input type="number" min="1" value="1">
+		</div>
+		<a href="javascript:;" id="start">
+		<img src="img/strat.png" alt="">
+		</a>
+	</div>
+	<!-- <input type="text" class="text" value="请选择关卡数"> -->
+	<div class="message">
+		<div>
+			<img src="img/fail.gif" alt="分数" style="width:70px;height:70px;margin-top:-20px;">
+			<span>0</span>
+			<span class="si">都是钱呀</span>
+		</div>
+		<div>
+			<img src="img/success.gif" alt="生命">
+			<span>10</span></br>
+			<span class="si">哎，又快死啦，倒霉！</span>
+		</div>
+		<div>
+			<img src="img/start.gif" alt="关卡" style="width:60px;height:60px">
+			<span id="stepbox">1</span></br>
+			<span class="si">快来追我呀</span>
+		</div>
+	</div>
+	<div class="next">
+		<div class="mes">
+			下一关: 第&nbsp;<span id="step"></span>&nbsp;关<br><br>
+			难度: <span id="difficult"></span>
+		</div>
+		<a href="javascript:;" id="go">开始</a>
+		<a href="javascript:;" class="close">X</a>
+	</div>
+	<div class="fail">
+		<div class="score">
+			gameover！！！</br>
+			您的最终得分为: &nbsp;&nbsp;&nbsp;&nbsp;<span id="score"></span>分
+		</div>
+		<a href="javascript:;" id="again">AGAIN</a>
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>深圳时装周</title>
+    <link rel="stylesheet" href="css/show-room.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body style="background: #1d1d1d">
+<div class="nav" id="nav">
+    <a href="index.html">首页</a>
+    <p>A / W 2016  SHOW ROOM</p>
+</div>
+<!--con开始-->
+<div class="con">
+    <ul class="con-con">
+        <li>
+            <a href="sjsmd.html">
+                <p>ASAP SHOWROOM</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>PROJECT CROSSOVER</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>TUDOO SHOWROOM</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>JERRY WONG</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <p>ASAP SHOWROOM</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>PROJECT CROSSOVER</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>TUDOO SHOWROOM</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>JERRY WONG</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <p>ASAP SHOWROOM</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>PROJECT CROSSOVER</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>TUDOO SHOWROOM</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <p>JERRY WONG</p>
+                <div class="con-dizhi">
+                    <span>
+                        <p>地址：上海</p>
+                        <p>网址：上海</p>
+                        <p>联系方式：上海</p>
+                    </span>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="fenye"><<1 2 3 4 5 6…>></div>
+<script>
+    $(function(){
+        var pinpai=$(".con-con");
+        var imgli=$(".con-con>li");
+        for(i=0;i<imgli.length;i++){
+            imgli[i].index=i;
+            var curImg="url(images/show_0"+(imgli[i].index+1)+".jpg) 0 0 no-repeat";
+            imgli[i].style.background=curImg;
+
+            imgli[i].style.backgroundSize="cover";
+            imgli[i].style.backgroundPosition="center";
+        }
+    })
+
+    $(function(){
+        var li=$(".con-con>li");
+        var lip=$(".con-con>li>a>p");
+        var lispan=$(".con-dizhi");
+        li.hover(function(){
+            var index=$(this).index();
+            lip.css("display","block").eq(index).css("display","none");
+            lispan.css("display","none").eq(index).css("display","block")
+        },function(){
+            lip.css("display","block")
+            lispan.css("display","none")
+        })
+    })
+</script>
+</body>
+</html>

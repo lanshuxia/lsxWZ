@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en"  >
+<head>
+    <meta charset="UTF-8">
+    <title>深圳时装周</title>
+    <link rel="stylesheet" href="css/xiuchang.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1″>
+</head>
+<body style="background:#1d1d1d">
+<!--导航开始-->
+<div class="nav container">
+    <div class="sy"><a href="index.html">首页</a></div>
+    <div class="tittle">A/W 2015秀场直击</div>
+</div>
+<!--导航结束-->
+<!--内容开始-->
+<div class="con container">
+    <div class="row">
+        <ul id="ljhg_date">
+            <li style="color:#ccc">03月19日</li>
+            <p>|</p>
+            <li>03月20日</li>
+            <p>|</p>
+            <li>03月21日</li>
+            <p>|</p>
+            <li>03月22日</li>
+            <p>|</p>
+            <li>03月23日</li>
+            <p>|</p>
+            <li>03月24日</li>
+        </ul>
+    </div>
+
+    <div class="row banner">
+
+        <div class="col-xs-12 box">
+            <div class="box-banner">
+                <div class="inner">
+                    <img src="images/banner1.png" class="img-responsive" alt="Responsive image">
+                    <a href="dissona.html">
+                        <span>dissona:时尚悖论实验</span>
+                    </a>
+                </div>
+
+                <div class="inner">
+                    <img src="images/banner1.png" class="img-responsive" alt="Responsive image">
+                    <a href="dissona.html">
+                        <span>dissona:</span>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="btn-bottom">
+                <li class="hot"></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script>
+    $(function(){
+        var conli=$("#ljhg_date>*");
+        conli.click(function(){
+            var index=$(this).index();
+            conli.css("color","#fff").eq(index).css("color","#ccc")
+        })
+    })
+</script>
+
+<script>
+    $(function(){
+        var $img=$('.inner');
+        var $lis=$('.btn-bottom li');
+        var $box=$('.box');
+        var now=0;
+        var next=0;
+        var imgw=$img.width();
+        $img.eq(0).css('left',0);
+        var t=setInterval(move,6000);
+        var flag=true;
+        function move(){
+            if(!flag){
+                return;
+            }
+            flag=false;
+            next++;
+            if(next==2){
+                next=0;
+            }
+            $img.eq(now).animate({'left':-imgw},800);
+            $img.eq(next).css('left',imgw).animate({'left':0},800,function(){
+                flag=true;
+            })
+            $lis.removeClass("hot").eq(next).addClass('hot');
+            now=next;
+        }
+        $box.mouseover(function(){
+            clearInterval(t);
+        })
+        $box.mouseout(function(){
+            t=setInterval(move,6000);
+        })
+        $lis.click(function(){
+            clearInterval(t);
+            index=$(this).index();
+            if(now==index||!flag){
+                return;
+            }
+            flag=false;
+            if(now<index){
+                $img.eq(index).css('left',imgw).animate({'left':0},800);
+                $img.eq(now).animate({'left':-imgw},800,function(){
+                    flag=true;
+                });
+                $lis.removeClass("hot").eq(index).addClass('hot');
+
+            }else if(now>index){
+                $img.eq(index).css('left',-imgw).animate({'left':0},800);
+                $img.eq(now).animate({'left':imgw},800,function(){
+                    flag=true;
+                });
+                $lis.removeClass("hot").eq(index).addClass('hot');
+            }
+            next=now=index;
+        })
+
+    })
+</script>
+<!--内容结束-->
+
+<!--footer开始-->
+<div class="footer container" style="padding:0">
+    <ul class="footer-con">
+        <li>
+            <a href="tpsp.html">
+                <img src="images/zjxc11.png" alt="">
+            </a>
+            <p>PSALTER 诗篇</p>
+        </li>
+        <li>
+            <a href="tpsp.html">
+                <img src="images/zjxc12.png" alt="">
+            </a>
+            <p>YINER 音儿</p>
+        </li>
+        <li>
+            <a href="tpsp.html">
+                <img src="images/zjxc13.png" alt="">
+            </a>
+            <p>AUM</p>
+        </li>
+        <li>
+            <a href="tpsp.html">
+                <img src="images/zjxc14.png" alt="">
+            </a>
+            <p>MARISFROLG 玛丝菲尔</p>
+        </li>
+    </ul>
+</div>
+<!--footer结束-->
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script>
+      $(function(){
+         var cx= $('.box').offset().left+$('.box').width()/2;
+          var cy=$('.box').offset().top+$('.box').height()/2;
+          $(document).mousemove(function(e){
+              var px= e.pageX-cx;
+              var py= e.pageY-cy;
+              var pz=0;
+
+              var m=Math.sqrt(px*px+py*py+pz*pz);
+              var mx=px/m;
+              var my=py/m;
+              var mz=pz/m;
+              $('.box').css({
+                  transform:'rotate3d('+mx+','+my+','+mz+','+m+'deg)'
+              });
+          })
+      })
+    </script>
+    <style>
+        .out{
+            width:200px;
+            height:200px;
+            border:3px solid #eee;
+            background:url(img/bj4.gif);
+            perspective:800px;
+            padding:200px;
+            margin:0 auto;
+        }
+        .box{
+            width:200px;
+            height:200px;
+            /*transition:transform 2s ease;*/
+            transform-style:preserve-3d;
+            position:relative;
+            transform-origin:center center 100px;
+        }
+      /*  .box:hover{
+            transform:rotateY(180deg);
+        }*/
+        .box div{
+            width:200px;
+            height:200px;
+            line-height:200px;
+            text-align:center;
+            font-size:30px;
+            position:absolute;
+        }
+        .box div:nth-child(1){
+            background:url(img/1.png);
+            transform:rotateX(90deg);
+            transform-origin: top;
+        }
+        .box div:nth-child(2){
+            background:url(img/2.png);
+            transform:rotateY(-90deg);
+            transform-origin: left;
+        }
+        .box div:nth-child(3){
+            background:url(img/3.png);
+            transform:rotateX(180deg);
+        }
+        .box div:nth-child(4){
+            background:url(img/4.png);
+            transform:rotateY(90deg);
+            transform-origin:right;
+        }
+        .box div:nth-child(5){
+            background:url(img/5.png);
+            transform: rotateX(-90deg);
+            transform-origin:bottom;
+        }
+        .box div:nth-child(6){
+            background:url(img/6.png);
+            transform:translateZ(200px);
+        }
+    </style>
+</head>
+<body>
+<div class="out">
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+</body>
+</html>

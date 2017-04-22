@@ -1,0 +1,260 @@
+@import "init.css";
+.nav{
+    width:87%;
+    height:50px;
+    margin:0 auto;
+    margin-top:78px;
+    margin-bottom:70px;
+}
+#nav{
+    margin-top:75px;
+    margin-bottom:75px;
+}
+.nav>a{
+    width:10%;
+    display: block;
+    float: left;
+    color:#fff;
+    font-size:18px;
+    font-family: FE6,sans-serif;
+}
+.nav>p{
+    width:80%;
+    text-align: center;
+    color:#fff;
+    float: left;
+    font-size: 60px;
+    line-height:50px;
+    font-family: BE,FE1,sans-serif;
+    letter-spacing: 2px;
+
+}
+/*con开始*/
+.con{
+    width:87%;
+    height:auto;
+    margin:0 auto;
+}
+.con-con{
+    height:auto;
+    overflow: hidden;
+}
+.con-con>li{
+    width:23.8%;
+    height:200px;
+    object-fit: cover;
+    float: left;
+    margin-right:13px;
+    margin-bottom:13px;
+    position:relative;
+}
+.con-con>li>a>p{
+    width:100%;
+    height:10%;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    font-family: "微软雅黑";
+    font-size:14px;
+    text-align: center;
+    margin:auto auto;
+    color:#fff;
+    display: block;
+}
+.con-dizhi{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    left:0;
+    top:0;
+    color:#fff;
+    display:none;
+}
+.con-dizhi>span{
+    display:block;
+    width:80%;
+    height:30%;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto auto;
+}
+.con-dizhi>span>p{
+    width:100%;
+    line-height:150%;
+    font-family: "微软雅黑";
+}
+.con-con>li:nth-child(4),.con-con>li:nth-child(8),.con-con>li:nth-child(12){
+    margin-right: 0;
+}
+
+/*分页*/
+.fenye{
+    width:87%;
+    height:30px;
+    margin:0 auto;
+    color:#fff;
+    font-size:18px;
+    font-family: FE1,sans-serif;
+    text-align: center;;
+    margin-top:60px;
+    margin-bottom:78px;
+}
+
+/*设计师名单*/
+.sjsmd-nav{
+    margin-bottom:0;
+}
+h1{
+    color:#fff;
+    width:100%;
+    font-size:55px;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:50px;
+    font-family: FE1,sans-serif;
+}
+.sjsmd-con{
+    width:87%;
+    height:730px;
+    margin:0 auto;
+}
+.sjsmd-con>li{
+    width:20%;
+    height:220px;
+    float:left;
+    position:relative;
+}
+.sjsmd-con>li>a>span{
+    width:100%;
+    height:46px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    text-align:center;
+    line-height: 46px;
+    font-family: "微软雅黑";
+    color:#fff;
+    background:rgba(0,0,0,0.5);
+}
+.sjsmd-con>li>a>span:hover{
+    background:rgba(0,0,0,0.2);
+}
+
+/*活动*/
+.active{
+    margin-bottom:53px;
+}
+.active_nav{
+    width:20%;
+    height:20px;
+    margin:0 auto;
+    margin-bottom:45px;
+}
+.active_nav>li{
+    width:49%;
+    height:100%;
+    color:#fff;
+    font-size:21px;
+    text-align: center;
+    line-height: 20px;
+    font-family: FE1,sans-serif;
+    border-right:1px solid #fff;
+    float: left;
+}
+.active-con{
+    width:87%;
+    height:176px;
+    margin:0 auto;
+}
+.active-con>ul>li{
+    width:24.1%;
+    height:176px;
+    float:left;
+    margin-right:13px;
+    margin-bottom:13px;
+    position:relative;
+}
+.active-con>ul>li:last-child{
+    margin-right:0;
+}
+.active-con>ul>li>img{
+    width:100%;
+    height:176px;
+    background-size:300px;
+}
+.active-zhezhao{
+    width:95%;
+    height:46px;
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    line-height:46px;
+    font-family: "微软雅黑";
+    left:0;
+    bottom:0;
+    color:#fff;
+    padding-left:5%;
+}
+.active-zhezhao:hover{
+    background:rgba(0,0,0,0.2);
+    color:#fff;
+}
+/*新闻*/
+.xw-nav{
+    width:30%;
+}
+.xw-nav>li{
+    width:33%;
+}
+@media screen and (max-width:730px){
+
+    .con-con>li{
+        width:48.6%;
+        height:300px;
+        object-fit: cover;
+        float: left;
+        margin-bottom:2%;
+    }
+    .con-con>li:nth-child(2),.con-con>li:nth-child(4),.con-con>li:nth-child(6),.con-con>li:nth-child(8),.con-con>li:nth-child(10){
+        margin-right: 0;
+    }
+    .sjsmd-con{
+        width:92%;
+        height:1200px;
+        border:1px solid red;
+        margin:0 auto;
+    }
+    .sjsmd-con>li{
+        width:33.3%;
+        height:220px;
+        float:left;
+        position:relative;
+    }
+    .active_nav{
+        width:30%;
+    }
+    /*新闻*/
+    .xw-nav{
+        width:60%;
+    }
+    .xw-nav>li{
+        width:33%;
+    }
+    .active-con>ul>li{
+        width:49%;
+        height:176px;
+        float:left;
+        margin-right:2%;
+        margin-bottom:2%;
+        position:relative;
+    }
+    .active-con>ul>li:nth-child(2){
+        margin-right:0;
+    }
+
+}

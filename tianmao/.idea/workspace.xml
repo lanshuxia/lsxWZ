@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e6ea705-820f-4600-b2a0-f411ff62bb46" name="默认的" comment="" />
+    <ignored path="tianmao.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tianmao" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/function.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tianmao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/wamp/www/ajax" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e6ea705-820f-4600-b2a0-f411ff62bb46" name="默认的" comment="" />
+      <created>1451188869276</created>
+      <option name="number" value="Default" />
+      <updated>1451188869276</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119335346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7058823">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding>
+            <marker date="1451197884532" expanded="true" signature="38:282" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="289:116182" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="321:381" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="405:4178" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="460:4178" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="493:780" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="813:4178" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="844:1098" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="976:1079" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="1129:1333" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="1197:1314" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="1364:1625" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="1501:1606" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="1656:1919" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="1795:1900" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="1950:2151" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2017:2132" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2182:2374" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2250:2355" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2405:2698" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="2550:2561" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2562:2679" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="2592:2603" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2729:2921" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2797:2902" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="2952:3964" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3031:3055" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="3056:3945" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3086:3134" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3154:3164" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3546:3602" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3654:3702" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3721:3731" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3776:3880" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="3899:3909" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="3995:4178" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="4137:4175" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="4176:4178" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="111607:111919" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="111607:112086" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="111949:112075" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="112127:113929" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="112152:112417" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="112442:113469" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="113497:113769" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="113799:113918" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="113954:114194" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114230:115684" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="114265:114281" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114282:114369" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114396:114501" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114524:115153" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114553:114647" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114676:114773" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114802:114896" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="114925:115019" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="115048:115142" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="115174:115675" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="115203:115297" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="115326:115535" placeholder="..." />
+            <marker date="1451197884532" expanded="false" signature="115405:115456" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="115570:115664" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="115718:115963" placeholder="..." />
+            <marker date="1451197884532" expanded="true" signature="115758:115956" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.03411131">
+          <caret line="221" column="1" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

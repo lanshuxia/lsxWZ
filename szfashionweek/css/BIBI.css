@@ -1,0 +1,178 @@
+@import "init.css";
+.nav{
+    width:70%;
+    margin:0 auto;
+    margin-top:75px;
+    margin-bottom:30px;
+    color:#fff;
+    font-size:18px;
+    font-family: FE6,sans-serif;
+}
+#hhz_nav{
+    width:87%;
+    margin-bottom:47px;
+}
+.nav>a{
+    color:#fff;
+
+}
+/*简介*/
+.jianjie{
+    width:87%;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto;
+    margin-bottom:60px;
+}
+#hhzjianjie{
+    margin-bottom:25px;
+}
+.BIBI-IMG,.BIBI-jianjie{
+    width:436px;
+    height:306px;
+    float: left;
+    margin-right:66px;
+}
+#hhz_img{
+    width:238px;
+    height:180px;
+    margin-right:32px;
+}
+#hhz_img>img{
+    width:238px;
+    height:180px;
+}
+#hhz_jianjie{
+    width:205px;
+    height:180px;
+    margin-right:100px;
+}
+#hhz_jianjie_right{
+    width:520px;
+    height:180px;
+}
+.BIBI-jianjie>h1{
+    color:#fff;
+    font-size:43px;
+    font-family: FE1,sans-serif;
+}
+.BIBI-jianjie>p{
+    color:#fff;
+    margin-top:30px;
+    line-height:200%;
+    font-family: "微软雅黑";
+}
+
+.BIBI-IMG>img{
+    width:436px;
+    height:306px;
+    object-fit: cover;
+}
+.BIBI-jianjie-right{
+    width:580px;
+    height:auto;
+    float: left;
+}
+.BIBI-jianjie-right>h1{
+    color:#fff;
+    font-size: 32px;
+    font-family: FE1,sans-serif;
+}
+.BIBI-jianjie-right>p{
+    margin-top:31px;
+    line-height:200%;
+    font-family: "微软雅黑";
+    text-align: justify;
+    color:#c8c8c8;
+}
+.xian{
+    width:87%;
+    margin:0 auto;
+    margin-bottom:37px;
+    border-bottom:1px solid #fff;
+}
+/*banner*/
+.banner{
+    width:87%;
+    height:630px;
+    margin:0 auto;
+}
+.banner>h1{
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+    font-family: FE1,sans-serif;
+}
+.banner-box{
+    width:100%;
+    height:590px;
+    position:relative;
+    margin-bottom:80px;
+}
+.banner-con{
+    float: left;
+    width: 360px;
+    height:550px;
+    margin-right: 9px;
+    position:relative;
+}
+.banner-con:nth-child(3){
+    margin-right:0;
+}
+.banner-con>span{
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:999;
+    background: rgba(0,0,0,0.3);
+}
+#slider{
+    width:100%;
+    position:absolute;
+}
+/*betu*/
+.betu{
+    width:596px;
+}
+.betu>h1{
+    font-size:23px;
+    font-family: FE1,sans-serif;
+}
+#betu-pinpai{
+    height:60px;
+    border-bottom:0;
+    padding-bottom:0;
+}
+.betu-pinpai1>h1{
+    font-size:60px;
+}
+.betu-banner>h1{
+    text-align: left;
+    font-family: FE1,sans-serif;
+}
+.betu-banner>p{
+    font-size:14px;
+    color:#6f6e6f;
+    margin-top:20px;
+    text-align: left;
+}
+/*独立设计师*/
+.dlsjs{
+    width:100%;
+    margin-bottom:87px;
+    color:#fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: FE1,sans-serif;
+}
+
+@media screen and (max-width:730px){
+    .BIBI-jianjie-right{
+        margin-left:0;
+        margin-top:2%;
+    }
+
+}

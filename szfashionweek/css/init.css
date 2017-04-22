@@ -1,0 +1,44 @@
+/***********************************全局变量****************************************************************/
+*{padding:0;margin:0;}
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input{font-size:12px}
+input{border:0;outline:none;/*去除蓝色边框*/}
+i{font-style:normal;}
+span,p{
+    font-size:12px;
+}
+a{outline-style:none;text-decoration:none;color:black;}
+a:link{color:#000000;}
+a:active{color:#ff0000;}
+a:hover{color:blue;}
+@font-face {
+    font-family: 'FE1';
+    src: url('../fonts/FZCJHJW方正粗俊黑简体_2.TTF') format('woff');
+}
+@font-face {
+    font-family: 'FE2';
+    src: url('../fonts/FZJHJW方正俊黑简体_2.TTF') format('woff');
+}
+@font-face {
+    font-family: 'FE3';
+    src: url('../fonts/FZXIJHJW方正细俊黑简体_2.TTF') format('woff');
+}
+@font-face {
+    font-family: 'FE4';
+    src: url('../fonts/FZXJHJW方正纤俊黑简体_2.TTF') format('woff');
+}
+@font-face {
+    font-family: 'FE5';
+    src: url('../fonts/FZZHUNJHJW方正准俊黑简体_2.TTF') format('woff');
+}
+@font-face {
+    font-family: 'FE6';
+    src: url('../fonts/FZZJHJW方正中俊黑简体_3.TTF') format('woff');
+}
+@font-face {
+    font-family: 'BE';
+    src: url('../fonts/BEBASNEUE_0.OTF') format('woff');
+}

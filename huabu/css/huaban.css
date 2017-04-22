@@ -1,0 +1,117 @@
+body,ul,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family:楷体;
+    font-size:20px;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width:800px;
+    height:600px;
+    border:2px solid #ccc;
+    margin:0 auto;
+    margin-top:30px;
+}
+.top{
+    width:100%;
+    height:60px;
+    border-bottom:1px solid #ccc;
+}
+.parent{
+    width:20%;
+    height:100%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    position:relative;
+    background:#eee;
+    cursor: pointer;
+    border-right:1px solid #ccc;
+}
+.tc{
+    float: left;
+    margin-left:20px;
+}
+.parent .bgcolor{
+    margin-left:20px;
+    float: left;
+}
+.parent .bordercolor{
+    margin-left:20px;
+    float: left;
+}
+.file,.lineWidth{
+    width:100%;
+    background:#eee;
+    display: none;
+    position:absolute;
+    top:60px;
+    left:0;
+    z-index: 5;
+}
+.file>li,.lineWidth>li{
+    border-bottom:1px solid #ccc;
+}
+.box{
+    width:100%;
+    height:540px;
+}
+.left{
+    width:159px;
+    height:100%;
+    border-right:1px solid #ccc;
+    float: left;
+}
+.left li{
+    width:100%;
+    height:49px;
+    background:#eee;
+    text-align: center;
+    line-height: 49px;
+    border-bottom:1px solid #ccc;
+    cursor:pointer;
+}
+
+.right{
+    width:637px;
+    height:536px;
+    float: left;
+    position:relative;
+}
+.copy{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+
+    box-shadow: inset 2px 3px 10px #ccc;
+}
+canvas{
+    position:absolute;
+    left:0;
+    top:0;
+}
+.xp{
+    width:20px;
+    height:20px;
+    border:1px solid red;
+    position:absolute;
+    display: none;
+    left:0;
+    top:0;
+    z-index: 5;
+}
+.selectarea{
+    border:1px dotted #ccc;
+    position:absolute;
+    display: none;
+    left:0;
+    top:0;
+    cursor: move;
+}
